@@ -1,13 +1,13 @@
-# Display Custom Validation Failure
+# Display Custom Validation Messages
 
 The Stadium built-in validations only handle a small set of the most common validations. So, sometimes we need to add our own custom validations to the "Save" Button.Click event handler to ensure that the data provided by users conforms to the requirements. 
 
 When we add such custom validations, we cannot display our error message under the field and usually use a *Notification* action to inform the user. We are also not able to style the failed field as per a failed built-in validation. 
 
 When a custom validation fails, this module 
-1. Will style failed fields as per built-in validations
-2. Will display a custom validation message under the failed control
-3. Can be configured to scroll to show the failed control
+1. will style failed fields as per built-in validations
+2. will display a custom validation message under the failed control
+3. can be configured to scroll to show the failed control
 
 https://github.com/user-attachments/assets/b07966c8-e590-445e-999b-32d9004f6616
 
