@@ -96,7 +96,7 @@ for (let i = 0; i < allVals.length; i++) {
       1. Target: The "Valid" *variable*
       2. Value: "false" (or "= false")
 
-![](images/ConditionsView.png)
+![](images/ClickEventHandlerView.png)
 
 6. After you have defined all conditions in this way, add another *Decision* to the event handler
    1. Uncheck the "Show else" property checkbox on the *Decision*
