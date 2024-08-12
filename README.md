@@ -1,4 +1,4 @@
-# Indicate Custom Validation Failure
+# Display Custom Validation Failure
 
 The Stadium built-in validations only handle a small set of the most common validations. So, sometimes we need to add our own custom validations to the "Save" Button.Click event handler to ensure that the data provided by users conforms to the requirements. 
 
