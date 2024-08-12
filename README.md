@@ -43,9 +43,12 @@ if (el) {
         err.classList.add("validation-error");
         el.appendChild(err);
     }
-    err.setAttribute("style", "display:block;max-width: " + (el.getBoundingClientRect().width - 10) + "px;white-space: normal;");
+    let style = "display:block;max-width: " + (el.getBoundingClientRect().width - 10) + "px;white-space: normal;";
+    if (el.querySelector("input[type='checkbox']")) style = "display:block;";
+    err.setAttribute("style", style);
     err.textContent = errMessage;
     el.classList.add("has-validation-error", "custom-validation");
+    el.querySelector("input, select, textarea").focus();
     
     let scrollPoint = document.querySelector("." + scrollToClassName);
     if (scrollPoint) {
